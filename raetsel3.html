@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Homepage</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button class="menu-btn" onclick="toggleMenu()">☰ Menü</button>
+
+<div id="sidebar" class="sidebar">
+    <a href="Startseite.html">Willkommen</a>
+    <a href="raetsel1.html">Linien</a>
+    <a href="raetsel2.html">Namen</a>
+    <a href="raetsel3.html">Statuen</a>
+    <a href="raetsel4.html">Symbole</a>
+    <a href="raetsel5.html">Mythen</a>
+    <a href="raetsel6.html">Lücke</a>
+    <a href="raetsel7.html">Wissen</a>
+    <a href="hilfe.html">Hilfe</a>
+</div>
+
+<div class="content">
+
+</div>
+
+
+
+    <h2>Statuen</h2>
+
+
+
+
+
+    <form onsubmit="pruefen('eingabe', '431', 'meldung', 
+    '<h2> Richtig!! </h2> <p> Die 20 Statuen stellen Figuren aus der österreichischen Geschichte dar. Sie wurden 1895-1901 gefertigt. Neben einem Markomannen, finden wir unter anderem einen Magyaren, Kreuzfahrer, Magister, Bürger, befreiten Bauern, einen Landsknecht und einen Tiroler, sowie weitere Figuren die den Wandel der Völker und Stände repräsentieren. '
+    ); return false;">
+    <input type="password" id="eingabe" placeholder="Lösung eingeben">
+    <button type="submit">Prüfen</button>
+</form>
+
+    <div id="meldung" class ="erfolg"></div>
+    
+    
+<p id="hinweis">
+Gib den 3-stelligen Zahlencode ein.
+</p>
+
+    <!-- JavaScript laden -->
+    <script src="main.js"></script>
+</body>
+    </html>

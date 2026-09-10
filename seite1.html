@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Homepage</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button class="menu-btn" onclick="toggleMenu()">☰ Menü</button>
+
+<div id="sidebar" class="sidebar">
+    <a href="Startseite.html">Startseite</a>
+    <a href="seite1.html">Seite 1</a>
+    <a href="seite2.html">Seite 2</a>
+    <a href="seite3.html">Seite 3</a>
+    <a href="seite4.html">Seite 4</a>
+    <a href="seite5.html">Seite 5</a>
+    <a href="seite6.html">Seite 6</a>
+</div>
+
+<div class="content">
+
+</div>
+
+
+      <h1>Rätsel des Meisterdiebs</h1>
+
+    <h2>Rätsel 2</h2>
+    <h2>Bitte gib hier den Code ein</h2>
+
+
+    <form onsubmit="pruefen('eingabe', 'Durst', 'meldung', 'Richtig!!'); return false;">
+    <input type="password" id="eingabe" placeholder="Code eingeben">
+    <button type="submit">Prüfen</button>
+</form>
+
+<p id="meldung"></p>
+    
+
+    <h4>Beachte die korrekte Rechtschreibung. Sind Zahlen Teil der Lösung, wird das Lösungswort stets zusammen geschrieben, handelt es sich um Hauptwörter, so ist der erste Buchstabe groß zu schreiben. Bei zwei Wörtern ist ein Leerzeichen zwischen den Wörtern</h4>
+
+    <!-- JavaScript laden -->
+    <script src="main.js"></script>
+</body>
+    </html>

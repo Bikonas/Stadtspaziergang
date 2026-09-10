@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Homepage</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button class="menu-btn" onclick="toggleMenu()">☰ Menü</button>
+
+<div id="sidebar" class="sidebar">
+    <a href="Startseite.html">Willkommen</a>
+    <a href="raetsel1.html">Linien</a>
+    <a href="raetsel2.html">Namen</a>
+    <a href="raetsel3.html">Statuen</a>
+    <a href="raetsel4.html">Symbole</a>
+    <a href="raetsel5.html">Mythen</a>
+    <a href="raetsel6.html">Lücke</a>
+    <a href="raetsel7.html">Wissen</a>
+    <a href="hilfe.html">Hilfe</a>
+</div>
+
+<div class="content">
+
+</div>
+
+</div>
+
+    <h2>Linien</h2>
+    
+
+
+
+
+
+    <form onsubmit="pruefen('eingabe', '457', 'meldung', 
+    '<h2> Richtig!! </h2> <p> Die Medaillons zeigen Szenen des Handels und des Ackerbaus. Die Reiterstatue wurden zwischen 1795 bis 1807 als Bronzeguss gefertigt und zeigt Joseph II. Zur Zeit ihrer Fertigung galt sie als größter Bronzeguss außerhalb Frankreichs.'
+
+    ); return false;">
+    <input type="password" id="eingabe" placeholder="Lösung eingeben">
+    <button type="submit">Prüfen</button>
+</form>
+
+
+    <div id="meldung" class ="erfolg"></div>
+
+   
+<p id="hinweis">
+Gib den 3-stelligen Zahlencode ein.
+</p>
+
+    <!-- JavaScript laden -->
+    <script src="main.js"></script>
+</body>
+    </html>

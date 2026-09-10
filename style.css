@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 0;
+    background-color: rgb(228, 233, 190);
+}
+
+
+/* Hintergrundbild mit Transparenz */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("Startseite.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+
+.raetsel-box {
+    width: 90%;
+    max-width: 900px;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+/* Überschrift zum Aufklappen */
+.titel {
+    cursor: pointer;
+    background-color:rgb(178, 80, 159);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+/* Inhalt der Dropbox versteckt */
+.inhalt {
+    display: none;
+}
+
+
+
+/* Hinweisbox */
+.hinweis {
+    display: none;
+    background-color: darkseagreen;
+    border-left: 5px solid darkgreen;
+    padding: 5px;
+    margin: 8px auto;
+    text-align: center;
+    border-radius: 8px;
+
+    width: 90%;
+    max-width: 900px;
+    box-sizing: border-box;
+
+    font-size: clamp(14px, 2vw, 18px);
+}
+
+
+/* Buttons */
+button,
+input {
+    padding: 8px 12px;
+    font-size: 18px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+
+/* Menübutton */
+.menu-btn {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 4px 10px;
+    font-size: 16px;
+    z-index: 2;
+}
+
+
+/* Seitenmenü */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -220px;
+    width: 220px;
+    height: 100%;
+    background-color: #333;
+    transition: 0.3s;
+    padding-top: 60px;
+}
+
+
+.sidebar.open {
+    left: 0;
+}
+
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+
+.sidebar a:hover {
+    background-color: #555;
+}
+
+
+/* Überschriften */
+h4 {
+    font-size: clamp(40px, 10vw, 60px);
+    color: rgb(178, 80, 159);
+    font-style: italic;
+    font-family: Cambria, Georgia, serif;
+}
+
+#gewinnBild {
+    display: none;
+    width: 500px;
+    margin-top: 20px auto;
+}
+
+.erfolg {
+    margin-top: 0px;
+    padding: 0px;
+    background-color: #f4f8e8;
+    border: 2px solid #6b8e23;
+    border-radius: 12px;
+    max-width: auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.erfolg h2 {
+    color: #4d6b13;
+    margin-top: 0;
+}
+
+.erfolg p {
+    margin-bottom: 15px;
+}

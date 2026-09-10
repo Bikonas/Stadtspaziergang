@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Homepage</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button class="menu-btn" onclick="toggleMenu()">☰ Menü</button>
+
+<div id="sidebar" class="sidebar">
+    <a href="Startseite.html">Willkommen</a>
+    <a href="raetsel1.html">Linien</a>
+    <a href="raetsel2.html">Namen</a>
+    <a href="raetsel3.html">Statuen</a>
+    <a href="raetsel4.html">Symbole</a>
+    <a href="raetsel5.html">Mythen</a>
+    <a href="raetsel6.html">Lücke</a>
+    <a href="raetsel7.html">Wissen</a>
+    <a href="hilfe.html">Hilfe</a>
+</div>
+
+<div class="content">
+
+</div>
+
+
+
+
+
+
+
+<div class="raetsel-box">
+    <h3 class="titel" onclick="toggleRaetsel(this)">
+        ▶ Linien
+    </h3>
+
+    <div class="inhalt">
+        <button onclick="hinweis(this)">Hinweis 1</button>
+        <p class="hinweis">
+           Befindest du dich am Josefsplatz?
+            ------ Dann schau dir die 16 Medaillons an den Eckpfeilern rund um die Statue genau an. Erkennst du die kleinen Details aus den Zeichnungen wieder?'
+        </p>
+
+        <button onclick="hinweis(this)">Hinweis 2</button>
+        <p class="hinweis">
+            Wenn du erkannt hast, zu welchem Medaillon die Zeichnungen passen, trage dies auf dem Plan in der Broschüre ein. 
+            Verbinde dann die kleinen Punkte so miteinander wie es die Bildreihenfolge in der Broschüre angibt.
+            Kannst du eine Zahl erkennen?
+        </p>
+
+        <button onclick="hinweis(this)">Lösung</button>
+        <p class="hinweis">
+
+            Wenn du die einzelnen Linien betrachtest, kannst du darin drei Zahlen lesen. 
+            Der Reihenfolge, wie sie in der Broschüre erscheinen, folgend, ergeben sich die Zahlen:
+             Vier-Fünf-Sieben.
+            <img src="Linien.png" alt="Lösung" width="300">
+        </p>
+    </div>
+ </div>
+
+
+<div class="raetsel-box">
+    <h3 class="titel" onclick="toggleRaetsel(this)">
+        ▶ Namen
+    </h3>
+
+    <div class="inhalt">
+        <button onclick="hinweis(this)">Hinweis 1</button>
+        <p class="hinweis">
+        Befindest du dich am Helmut-Zilk-Platz (Albertina) vor dem Albrechtsbrunnen? 
+            Dann schau dir rechts und links vom Brunnen die sechs Kinderstatuen an.
+            Erkennst du hier die Details aus den Zeichnungen wieder?
+        </p>
+
+        <button onclick="hinweis(this)">Hinweis 2</button>
+        <p class="hinweis">
+            Die Kinderstatuen wurden nach Flüssen in Österreich benannt. Trage ihre Namen in der Broschüre ein.
+            Kannst du nun die Lösung lesen?
+        </p>
+
+        <button onclick="hinweis(this)">Lösung</button>
+        <p class="hinweis">
+              Die Zahlen von 1 bis 13 entsprechen den jeweiligen Buchstaben, die sich aus den Flussnamen herleiten. 
+              Der Buchstabe E aus Enns wird dabei zwei Mal verwendet.
+            Die Antwort lautet also : Neun - Sechs - Acht.
+            <img src="Namen.png" alt="Lösung" width="300">
+        </p>
+</div>
+ </div>
+
+
+
+
+
+<div class="raetsel-box">
+
+    <h3 class="titel" onclick="toggleRaetsel(this)">
+        ▶ Statuen
+    </h3>
+
+
+        <div class="inhalt">
+        <button onclick="hinweis(this)">Hinweis 1</button>
+        <p class="hinweis">
+            Befindest du dich vor der Neuen Burg beim Prinz-Eugen Reiterdenkmal? 
+            Neben dem Haupteingang stehen rechts und links je 10 Statuen.
+        </p>
+
+        <button onclick="hinweis(this)">Hinweis 2</button>
+        <p class="hinweis">
+            Die drei gesuchten Figuren zeichnen sich durch die jeweils angegebenen Merkmale aus. Schau genau oder geh die Statuen einzeln durch.
+            Die jeweiligen Beschreibungen sind nur einer Statue zuordenbar. 
+        </p>
+
+        <button onclick="hinweis(this)">Lösung</button>
+        <p class="hinweis">
+            Gereiht von der ersten zur dritten Figur und nach ihrem Standort in Relation zum Reiterstandbild und dem Eingang zur Hofburg ergibt sich die Antwort: Vier - Drei - Zwei. 
+              <img src="Statuen.png" alt="Lösung" width="300">
+        </p>
+</div>
+ </div>
+
+
+
+<div class="raetsel-box">
+    <h3 class="titel" onclick="toggleRaetsel(this)">
+        ▶ Symbole
+    </h3>
+
+    <div class="inhalt">
+        <button onclick="hinweis(this)">Hinweis 1</button>
+        <p class="hinweis">
+           Befindest du dich beim Kaiser Franz-Josef Denkmal?
+           Dann suche nach der Sonnenuhr. Die 12 steht nicht in der Mitte sondern leicht versetzt auf der rechten Seite.
+           Das bedeutet, dass sie nach Südost ausgerichtet ist. Auch der Text hat dir diesen Hinweis mit dem groß geschriebenen SO schon gegeben.
+           Kannst du ableiten welche Statue sich im Süden befindet? 
+        </p>
+
+        <button onclick="hinweis(this)">Hinweis 2</button>
+        <p class="hinweis">
+            Die Statue die das Kreuz trägt ist im Süden. Hier musst du also beginnen. Es wird ein Symbolträger gesucht.
+            Was hat die Statue in der Hand? Und was kann L und R bedeuten? .
+        </p>
+
+  <button onclick="hinweis(this)">Hinweis 3</button>
+        <p class="hinweis">
+            L und R beziehen sich auf Rechts und Links. Es geht darum, was die Statuen und die Figuren auf den Reliefs in der jeweiligen Hand tragen.
+            Es sind acht Gegenstände gefragt - und es gibt acht Reihen mit Symbolen. "Durchblicken" ist hier wörtlich gemeint.
+        </p>
+
+         <button onclick="hinweis(this)">Hinweis 4</button>
+        <p class="hinweis">
+        Wenn du die Gegenstände in der Symboltabelle markierst und dann das Blatt gegen das Licht hälst, kannst du sehen, dass sich auf der Rückseite derselbigen Zahlen befinden.
+       "Zahlenfolge einhaltend" gibt dir den Hinwis auf die Reihung.
+        </p>
+
+        <button onclick="hinweis(this)">Lösung</button>
+        <p class="hinweis">
+         Die Reihenfolge der Lösungszahlen ergibt sich aus der Reihenfolge der Symbole in der Anleitung (1-8), aufsteigend. Der gesuchte Code ist also Drei-Drei-Vier und die Reihenfolge der Symbole ist: Kreuz - Speer - Zepter - Schild - Waage - Schriftrolle - Keule - Stab
+        </p>
+</div>
+ </div>
+
+
+
+
+
+
+<div class="raetsel-box">
+    <h3 class="titel" onclick="toggleRaetsel(this)">
+        ▶ Mythen
+    </h3>
+
+        <div class="inhalt">
+        <button onclick="hinweis(this)">Hinweis 1</button>
+        <p class="hinweis">
+            Befindest du dich am Michaelerplatz oder In der Burg (Kaiser Franz-Josef Denkmal)? Dann betrachte die Statuen des Herkules genau.
+        </p>
+
+        <button onclick="hinweis(this)">Hinweis 2</button>
+        <p class="hinweis">
+            Welcher Gesichtsausdruck passt zum Kampf mit welchem Tier - und ja es geht nur um den Kampf mit Tieren, nicht Menschen.
+            Verbinde Tiername und Gesichtsausdruck. Welche Zahlen werden dabei durchgestrichen?
+        </p>
+
+        <button onclick="hinweis(this)">Lösung</button>
+        <p class="hinweis">
+            Die durchgestrichenen Zahlen von oben nach unten gelesen ergeben die Zahl: Drei- Zwei - Drei. 
+              <img src="Mythen.png" alt="Lösung" width="300">
+        </p>
+    </div>
+ </div>
+
+
+
+
+<div class="raetsel-box">
+    <h3 class="titel" onclick="toggleRaetsel(this)">
+        ▶ Lücke
+    </h3>
+
+    <div class="inhalt">
+        <button onclick="hinweis(this)">Hinweis 1</button>
+        <p class="hinweis">
+            Befindest du dich in der Reitschulgasse vor der Stallburg (Hofreitschule)? Dort findest du eine Informationstafel mit dem Titel "Die Stallburg".
+            
+        </p>
+
+        <button onclick="hinweis(this)">Hinweis 2</button>
+        <p class="hinweis">
+            Die Wörter in roter Schrift decken sich mit den roten Rechtecken in der Broschüre. 
+            Gesucht sind die Buchstaben die sich in den drei schwarzen Feldern befinden? Welche sind das?
+            Welche Art zu zählen ist hier gesucht? Es ist eine alte Art zu zählen.
+        </p>
+
+        <button onclick="hinweis(this)">Lösung</button>
+        <p class="hinweis">
+          Die gesuchten Zahlen sind römische Zahlen. VI steht dabei für 6, das L ist 50 und D steht für 500.
+          Diese Zahlen zusammengezählt ergeben die Lösung: Fünf-Fünf-Sechs. 
+            <img src="Lücke.png" alt="Lösung" width="300">
+        </p>
+    </div>
+ </div>
+
+
+
+
+<div class="raetsel-box">
+    <h3 class="titel" onclick="toggleRaetsel(this)">
+        ▶ Wissen
+    </h3>
+        <div class="inhalt">
+        <button onclick="hinweis(this)">Hinweis 1</button>
+        <p class="hinweis">
+            Befindets du dich am Josefsplatz? Trage die Lösungen aus den letzten Rätseln in der Broschüre ein und vervollständige die Rechnungen.
+            Dann schau nach oben, suche nach einer gut sichtbaren Inschrift. Wie kann man aus 1-1-5 den Buchstaben L ableiten?
+            
+        </p>
+
+        <button onclick="hinweis(this)">Hinweis 2</button>
+        <p class="hinweis">
+            "Die Lage ist gezählt" bedeutet, dass jeder gesuchte Buchstabe an einer bestimmten Stelle der Inschrift steht. Es gilt: Reihe-Wort-Buchstabe
+        </p>
+
+        <button onclick="hinweis(this)">Lösung</button>
+        <p class="hinweis">
+            Die erste Zahl benennt die Reihe (insgesamt gibt es vier), die Zweite das Wort in dieser Reihe, die dritte Zahl benennt den jeweiligen Buchstaben in diesem Wort. 
+            <img src="Wissen.png" alt="Lösung" width="300">
+            Alle Buchstaben zusammen von oben nach unten gelesen ergeben das gesuchte Lösungswort: 
+             L - o - r - b - e - e - r
+        </p>
+</div>
+ </div>
+
+  
+
+
+ </div>
+
+ <script src="main.js"></script>
+</body>
+    </html>
