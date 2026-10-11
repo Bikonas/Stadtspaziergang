@@ -41,6 +41,8 @@ function toggleMenu() {
     document.getElementById("sidebar").classList.toggle("open");
 }
 
+
+// Drop Down Rätselhinweise
 function toggleRaetsel(titel) {
     const inhalt = titel.nextElementSibling;
 
@@ -51,7 +53,7 @@ function toggleRaetsel(titel) {
     }
 }
 
-
+// Dop-Down Hinweise einzeln und Lösung
 function hinweis(button) {
     const text = button.nextElementSibling;
 
